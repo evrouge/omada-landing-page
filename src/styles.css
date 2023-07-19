@@ -1,0 +1,42 @@
+body {
+    background-color: beige;
+}
+
+/* styles for the header */
+.navbar-container {
+    background-color: white;
+    padding: 10px;
+  }
+
+  .brand-link {
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .nav-links {
+    color: blue;
+  }
+
+  .nav-link {
+    margin-right: 20px;
+    color: #333;
+  }
+
+  .nav-link:hover {
+    color: #007bff;
+  }
+
+  /* styles for the property listing */
+  .property-listing-container {
+    color: red;
+  }
+
+  .property-item {
+    color: green;
+  }
+
+  /* styles for the footer */
+  footer {
+    color: green;
+  }
