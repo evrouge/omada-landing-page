@@ -10,7 +10,8 @@ const PropertyListing = () => {
   ];
 
   return (
-    <Container>
+    <>
+    {/* <Container>
       <h2>Featured Properties</h2>
       <Row>
         {properties.map((property) => (
@@ -22,7 +23,8 @@ const PropertyListing = () => {
           </Col>
         ))}
       </Row>
-    </Container>
+    </Container> */}
+    </>
   );
 };
 
