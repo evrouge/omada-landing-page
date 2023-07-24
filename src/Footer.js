@@ -1,10 +1,18 @@
-import React from 'react';
+
 import './styles.css'
 
 const Footer = () => {
+
   return (
-    <footer>
-      <p>&copy; {new Date().getFullYear()} Real Estate Company. All rights reserved.</p>
+    <footer><br/>
+      <form>
+        Name:<input></input>
+        Email:<input></input>
+        Message:<textarea></textarea>
+        <input type="submit" value="Send Message"></input>
+      </form>
+<br/>
+      <p>&copy; {new Date().getFullYear()} OMADA CAPITAL MANGAGEMENT. All rights reserved.</p>
     </footer>
   );
 };

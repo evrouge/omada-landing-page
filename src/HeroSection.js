@@ -93,6 +93,7 @@ const HeroSection = () => {
       </div>
       </div>
       <br/>
+      <hr/>
       <h2>Q & A</h2>
       <img src={image5} className="qanda"></img>
       </div>
