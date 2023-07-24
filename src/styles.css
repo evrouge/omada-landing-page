@@ -54,7 +54,41 @@ html {
     color: green;
   }
 
+
+
   img {
-    height: 100%;
-    width: 100%;
+    height: 50%;
+    width: 50%;
+    margin-left: 2rem;
   }
+
+/* added to see if works */
+@media screen and (min-width: 992px) {
+  .split-container1 {
+    display: flex;
+    justify-content: space-between; /* Items spaced evenly */
+    align-items: center; /* Center items vertically */
+    padding: 20px;
+    background-color: white;
+  }
+
+  img {
+    flex: 1; /* 50% width */
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .text {
+    flex: 1; /* 50% width */
+    padding: 20px;
+  }
+
+
+  /* Q and A image at bottom */
+
+  .qanda {
+    height: 80%;
+    width: 80%;
+    margin-left: 7rem;
+  }
+}

@@ -1,13 +1,13 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+// import { Container, Row, Col } from 'react-bootstrap';
 
 const PropertyListing = () => {
 
-  const properties = [
-    { id: 1, title: 'Property 1', description: 'Description of Property 1' },
-    { id: 2, title: 'Property 2', description: 'Description of Property 2' },
+//   const properties = [
+//     { id: 1, title: 'Property 1', description: 'Description of Property 1' },
+//     { id: 2, title: 'Property 2', description: 'Description of Property 2' },
 
-  ];
+//   ];
 
   return (
     <>
