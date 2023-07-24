@@ -13,8 +13,8 @@ const HeroSection = () => {
     <>
     <div className="component-below">
       <div class="split-container1">
-      <h1>Omada Capital Management</h1>
-      <img src={mainhouse}></img>
+      <h1 class="text">Omada Capital Management</h1>
+      <img src={mainhouse} class="mainhouse"></img>
       </div>
 <br/>
       <img src={photo} class="qanda"></img>
