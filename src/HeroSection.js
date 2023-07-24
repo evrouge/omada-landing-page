@@ -6,14 +6,19 @@ import image3 from './photos/investtimeline.png'
 import image4 from './photos/howitworks.png'
 import photo from './photos/letter.png'
 import image5 from './photos/qna.png'
+import mainhouse from './photos/1.png'
 
 const HeroSection = () => {
   return (
     <>
     <div className="component-below">
+      <div class="split-container1">
       <h1>Omada Capital Management</h1>
-      <h1>Need to put a photo of a house here</h1>
+      <img src={mainhouse}></img>
+      </div>
+<br/>
       <img src={photo} class="qanda"></img>
+      <hr/>
       <h1 id="opportunity">THE OPPORTUNITY</h1>
       <hr/>
       <div className='split-container1'>
@@ -29,6 +34,7 @@ const HeroSection = () => {
 </div>
         <img src={image} alt="utah"></img>
 </div>
+<hr/>
         <div>
           <h3>Rates will increase or stablize, and prices will continue to stay steady (protecting the equity position). Quality rental applications will increase. Buying during the dip now provides the best of both worlds. </h3>
         </div>
@@ -52,6 +58,7 @@ const HeroSection = () => {
         <img src={image2} class='qanda'></img>
         <br/><br/><hr/><br/>
         <img src={image3} class="qanda"></img>
+        <hr/>
       <h1 id="team">THE TEAM</h1>
       <hr/>
       <h2>Experience Makes A Difference</h2>
@@ -66,7 +73,7 @@ const HeroSection = () => {
       <p>Investing in the fund provides diversification and reduces risk as your money is spread across multiple properties. And it's more accessible and affordable than buying an individual investment property.</p>
       <p>Would it make sense to have a passive investment that doesn’t require much time or effort–and where you receive regular payouts based on your percentage of the fund?</p>
       <img src={image4} class="qanda"></img>
-
+<hr/>
       <h1 id="profit">THE PROFIT</h1>
       <hr/>
       <div className="split-container1">

@@ -31,7 +31,7 @@ html {
  .logos {
     height: 8rem;
     width: 10rem;
-    float: right;
+    float: left;
     margin-right: 2em;
 }
 
@@ -69,7 +69,7 @@ html {
     justify-content: space-between; /* Items spaced evenly */
     align-items: center; /* Center items vertically */
     padding: 20px;
-    background-color: white;
+    /* background-color: white; */
   }
 
   img {
@@ -90,5 +90,14 @@ html {
     height: 80%;
     width: 80%;
     margin-left: 7rem;
+  }
+}
+
+
+@media screen and (max-width: 664px) {
+  img {
+    height: 90%;
+    width: 90%;
+    margin: 0;
   }
 }
