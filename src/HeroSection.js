@@ -19,7 +19,7 @@ const HeroSection = () => {
 
 <br/>
 
-      <img src={photo} class="qanda"></img>
+      <img src={photo} class='helloletter'></img>
 
       <h1 id="opportunity" class="titlestyle">The Opportunity</h1>
 

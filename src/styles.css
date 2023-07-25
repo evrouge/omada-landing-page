@@ -91,6 +91,13 @@ body {
     width: 80%;
     margin-left: 7rem;
   }
+
+  .helloletter {
+    height: 80% !important;
+    width: 60% !important;
+    align-items: center !important;
+    margin-left: 13rem;
+  }
 }
 
 
@@ -99,6 +106,13 @@ body {
     height: 90%;
     width: 90%;
     margin: 0;
+  }
+
+}
+
+@media screen and (min-width: 1000px) {
+  .helloletter {
+    margin-left: 17rem;
   }
 }
 
