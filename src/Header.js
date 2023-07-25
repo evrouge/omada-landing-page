@@ -9,7 +9,7 @@ const Header = () => {
   <Navbar bg="danger" variant="dark" expand="lg">
         <Container>
           <Navbar.Brand href="#">Home</Navbar.Brand>
-          <Navbar aria-controls="navbarScroll" />
+          <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
               className="me-auto my-2 my-lg-0"
