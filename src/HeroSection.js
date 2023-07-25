@@ -16,7 +16,9 @@ const HeroSection = () => {
       <h1 class="text">Omada Capital Management</h1>
       <img src={mainhouse} class="mainhouse"></img>
       </div>
+
 <br/>
+
       <img src={photo} class="qanda"></img>
       <hr/>
       <h1 id="opportunity">THE OPPORTUNITY</h1>
@@ -72,6 +74,7 @@ const HeroSection = () => {
       <p>Investing with OMADA is simpler, more convenient, and potentially more profitable compared to buying investment property directly. It’s a great option for those who want to invest in real estate but don't have the time, money, or expertise to manage properties on their own.</p>
       <p>Investing in the fund provides diversification and reduces risk as your money is spread across multiple properties. And it's more accessible and affordable than buying an individual investment property.</p>
       <p>Would it make sense to have a passive investment that doesn’t require much time or effort–and where you receive regular payouts based on your percentage of the fund?</p>
+     <hr/>
       <img src={image4} class="qanda"></img>
 <hr/>
       <h1 id="profit">THE PROFIT</h1>

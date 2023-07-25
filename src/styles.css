@@ -101,3 +101,31 @@ html {
     margin: 0;
   }
 }
+
+.mainhouse {
+  height: 100%;
+  width: 100%;
+}
+
+/* FOOTER */
+
+/* creating a box around the form */
+.form-container {
+  border: 4px solid white;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* logo for the bottom */
+.image-container {
+text-align: center;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: 40vh;
+  width: 50vh;
+  display: block;
+  margin: 0 auto;
+}

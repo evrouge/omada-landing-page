@@ -9,13 +9,13 @@ const Header = () => {
   <Navbar bg="transparent" expand="lg">
         <Container fluid>
           <Navbar.Brand href="#">Home</Navbar.Brand>
-          <Navbar.Toggle aria-controls="navbarScroll" />
+          <Navbar aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
               className="me-auto my-2 my-lg-0"
               style={{ maxHeight: '200px' }}
               navbarScroll
-            >
+            ><br/>
               <Nav.Link href="#opportunity">The Opportunity</Nav.Link>
               <Nav.Link href="#team">The Team</Nav.Link>
               <Nav.Link href="#profit">The Profit</Nav.Link>
