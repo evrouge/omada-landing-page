@@ -1,6 +1,6 @@
-html {
-    background-color: #eceadc;
-    text-align: center;
+body {
+    background-color: #eceadc !important;
+    text-align: center !important;
 }
 
 /* styles for the header */

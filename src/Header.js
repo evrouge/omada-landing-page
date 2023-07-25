@@ -6,8 +6,8 @@ import image from './photos/logo.png'
 const Header = () => {
   return (
     <>
-  <Navbar bg="transparent" expand="lg">
-        <Container fluid>
+  <Navbar bg="danger" variant="dark" expand="lg">
+        <Container>
           <Navbar.Brand href="#">Home</Navbar.Brand>
           <Navbar aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
@@ -22,7 +22,7 @@ const Header = () => {
             </Nav>
           </Navbar.Collapse>
         </Container>
-      </Navbar>
+      </Navbar><br/>
  <img class="logos" src={image} alt="logo"></img>
 
     </>

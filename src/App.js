@@ -5,6 +5,8 @@ import HeroSection from './HeroSection';
 import PropertyListing from './PropertyListing';
 import Footer from './Footer';
 import './styles.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
