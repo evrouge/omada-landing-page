@@ -129,3 +129,17 @@ text-align: center;
   display: block;
   margin: 0 auto;
 }
+
+.titlestyle {
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  text-decoration: underline;
+  font-size: 5rem;
+}
+
+.rates {
+  background-color: white;
+}
+
+.teamcolor {
+  background-color: white;
+}
