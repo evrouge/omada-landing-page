@@ -72,11 +72,11 @@ const HeroSection = () => {
         <div class='split-container1'>
 
       <div class="text">
-      <h2 class='why-invest'>How You Get Paid</h2>
+      <h2 class='why-invest'>How You Get Paid:</h2>
       </div>
       <div className='card-container'>
 <Row xs={1} className='g4 justify-content-center align-items-center'>
-      <Card className='me-2' style={{ width: '13rem',height: '15rem' }}>
+      <Card className='me-2' style={{ width: '13rem',height: '16rem' }}>
       <Card.Body>
         <Card.Title>1.</Card.Title>
         <Card.Subtitle className="mb-2 text-muted"></Card.Subtitle>
@@ -86,7 +86,7 @@ const HeroSection = () => {
       </Card.Body>
     </Card>
 
-      <Card className='me-2' style={{ width: '13rem', height: '15rem' }}>
+      <Card className='me-2' style={{ width: '13rem', height: '16rem' }}>
       <Card.Body>
         <Card.Title>2.</Card.Title>
         <Card.Subtitle className="mb-2 text-muted"></Card.Subtitle>
@@ -95,9 +95,7 @@ const HeroSection = () => {
         </Card.Text>
       </Card.Body>
     </Card>
-
-
-      <Card className='me-2' style={{ width: '13rem', height: '15rem' }}>
+      <Card className='me-2' style={{ width: '13rem', height: '16rem' }}>
       <Card.Body>
         <Card.Title>3.</Card.Title>
         <Card.Subtitle className="mb-2 text-muted"></Card.Subtitle>

@@ -180,7 +180,7 @@ text-align: center;
 }
 
 /* media query for cards */
-@media screen and (max-width: 618px) {
+@media screen and (max-width: 610px) {
   .card-container {
     justify-content: center;
   }
@@ -189,4 +189,17 @@ text-align: center;
 .card-container {
   display: flex;
   justify-content: space-between;
+}
+
+div {
+  overflow: hidden;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+.card-title::before {
+  /* content: '-'; */
+  margin-right: 10px;
 }
