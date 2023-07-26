@@ -24,7 +24,7 @@ const HeroSection = () => {
       <h1 id="opportunity" class="titlestyle">The Opportunity</h1><br/>
       <div className='split-container1'>
         <div className='text'>
-          <h2>Why invest?</h2><br/>
+          <h2 class='why-invest'>Why invest?</h2><br/>
         <p>Low inventory of single-family homes caused home prices to rise</p>
         <p>Hgher interest rates slowed down buyers</p>
         <p>Sellers won't lower prices of gives up low rates</p>
@@ -55,14 +55,14 @@ const HeroSection = () => {
 <div class='teamcolor'>
       <h1 id="team" class="titlestyle">The Team</h1>
 
-      <h2>Experience Makes A Difference</h2>
+      <h2 class='makeitbold'>Experience Makes A Difference</h2>
       <h3>Founded by the leading real estate team in Utah for the last 20 years.</h3>
       <ul>
         <li>Over 10,000 property transactions</li>
         <li>Best-equipped to indentify income-generating properties at the right price.</li>
       </ul>
-      <h2>More Convenient</h2>
-      <h2>More Profitable</h2>
+      <h2 class='different'>- More Convenient -</h2>
+      <h2 class='different'>- More Profitable -</h2>
       <p>Investing with OMADA is simpler, more convenient, and potentially more profitable compared to buying investment property directly. It’s a great option for those who want to invest in real estate but don't have the time, money, or expertise to manage properties on their own.</p>
       <p>Investing in the fund provides diversification and reduces risk as your money is spread across multiple properties. And it's more accessible and affordable than buying an individual investment property.</p>
       <p>Would it make sense to have a passive investment that doesn’t require much time or effort–and where you receive regular payouts based on your percentage of the fund?</p><br/>
@@ -70,14 +70,10 @@ const HeroSection = () => {
       <br/><img src={image4} class="qanda"></img><br/><br/>
       <div class="rates">
       <h1 id="profit" class='titlestyle'>The Profit</h1>
-
-
-
       <p>OMADA invests in real estate for regular people to get a good return on their investment. You invest (buy shares) in OMADA, and they pay you quarterly dividends based on the percentage of the investment that is yours.</p>
       <div className="split-container1">
       <h2>How You Get Paid</h2>
       <div className="text">
-
       <h3>1.</h3>
       <p>Rents collected are paid out on a quarterly basis after expenses.*</p>
       <p>Projected Return: 4 - 6% annually</p>
@@ -93,7 +89,7 @@ const HeroSection = () => {
       </div>
       <br/>
 
-      <h2>Q & A</h2>
+      <h2 class="q-and-a-title">Q & A</h2>
       <img src={image5} className="qanda"></img>
       </div>
     </>
