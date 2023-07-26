@@ -7,20 +7,17 @@ import image4 from './photos/howitworks.png'
 import photo from './photos/letter.png'
 import image5 from './photos/qna.png'
 import mainhouse from './photos/1.png'
+import { Card } from 'react-bootstrap'
 
 const HeroSection = () => {
   return (
     <>
     <div className="component-below">
       <div class="split-container1">
-      <h1 class="text">Omada Capital Management</h1>
+      <h1 class="text" id='omadatitle'>Omada Capital Management</h1>
       <img src={mainhouse} class="mainhouse"></img>
-      </div>
-
-<br/>
-
-      <img src={photo} class='helloletter'></img>
-
+      </div><br/>
+      <img src={photo} class='helloletter'></img><br/>
       <h1 id="opportunity" class="titlestyle">The Opportunity</h1><br/>
       <div className='split-container1'>
         <div className='text'>
@@ -70,25 +67,50 @@ const HeroSection = () => {
       <br/><img src={image4} class="qanda"></img><br/><br/>
       <div class="rates">
       <h1 id="profit" class='titlestyle'>The Profit</h1>
-      <p>OMADA invests in real estate for regular people to get a good return on their investment. You invest (buy shares) in OMADA, and they pay you quarterly dividends based on the percentage of the investment that is yours.</p>
-      <div className="split-container1">
-      <h2>How You Get Paid</h2>
-      <div className="text">
-      <h3>1.</h3>
-      <p>Rents collected are paid out on a quarterly basis after expenses.*</p>
-      <p>Projected Return: 4 - 6% annually</p>
-      <h3>2.</h3>
-      <p>Equity projections calculated at 3% appreciation per year.</p>
-      <p>Paid out at the sale of the home 7-10 after purchase</p>
-      <p>Projected Annual Return: 4 - 7%</p>
-      <h3>3.</h3>
-      <p>After rents and equities are realized: </p>
-      <p>Projected Annual Return: 7-10%</p><br/>
+      <p class='text'>OMADA invests in real estate for regular people to get a good return on their investment. You invest (buy shares) in OMADA, and they pay you quarterly dividends based on the percentage of the investment that is yours.</p>
+      <div>
+        <div class='split-container1'>
+
+      <div class="text">
+      <h2 class='why-invest'>How You Get Paid</h2>
+      </div>
+      <div className='card-container'>
+
+      <Card className='me-2' style={{ width: '13rem',height: '15rem' }}>
+      <Card.Body>
+        <Card.Title>1.</Card.Title>
+        <Card.Subtitle className="mb-2 text-muted"></Card.Subtitle>
+        <Card.Text>
+        Rents collected are paid out on a quarterly basis after expenses.* Projected Return: 4 - 6% annually
+        </Card.Text>
+      </Card.Body>
+    </Card>
+
+
+      <Card className='me-2' style={{ width: '13rem', height: '15rem' }}>
+      <Card.Body>
+        <Card.Title>2.</Card.Title>
+        <Card.Subtitle className="mb-2 text-muted"></Card.Subtitle>
+        <Card.Text>
+        Equity projections calculated at 3% appreciation per year. Paid out at the sale of the home 7-10 after purchase. Projected Annual Return: 4 - 7%
+        </Card.Text>
+      </Card.Body>
+    </Card>
+      <Card className='me-2' style={{ width: '13rem', height: '15rem' }}>
+      <Card.Body>
+        <Card.Title>3.</Card.Title>
+        <Card.Subtitle className="mb-2 text-muted"></Card.Subtitle>
+        <Card.Text>
+        After rents and equities are realized: Projected Annual Return: 7-10%
+        </Card.Text>
+      </Card.Body>
+    </Card>
+
+</div>
       </div>
       </div>
       </div>
       <br/>
-
       <h2 class="q-and-a-title">Q & A</h2>
       <img src={image5} className="qanda"></img>
       </div>

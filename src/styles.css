@@ -142,7 +142,7 @@ text-align: center;
 .titlestyle {
   text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   text-decoration: underline;
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 
 .rates {
@@ -154,7 +154,7 @@ text-align: center;
 }
 
 .q-and-a-title {
-  font-size: 4rem;
+  font-size: 3rem;
   text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -171,4 +171,23 @@ text-align: center;
   font-weight: bold;
   font-style: italic;
   font-size: 1.5rem;
+}
+
+#omadatitle {
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+/* media query for cards */
+@media screen and (max-width: 618px) {
+  .card-container {
+    justify-content: center;
+  }
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
 }
