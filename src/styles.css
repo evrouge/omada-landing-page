@@ -54,8 +54,6 @@ body {
     color: green;
   }
 
-
-
   img {
     height: 50%;
     width: 50%;
@@ -83,7 +81,6 @@ body {
     padding: 20px;
   }
 
-
   /* Q and A image at bottom */
 
   .qanda {
@@ -100,14 +97,12 @@ body {
   }
 }
 
-
 @media screen and (max-width: 664px) {
   img {
     height: 90%;
     width: 90%;
     margin: 0;
   }
-
 }
 
 @media screen and (min-width: 1000px) {
@@ -125,9 +120,9 @@ body {
 
 /* creating a box around the form */
 .form-container {
-  border: 4px solid white;
+  border: 4px solid orangered;
   padding: 20px;
-  max-width: 400px;
+  max-width: 300px;
   margin: 0 auto;
 }
 
@@ -147,7 +142,7 @@ text-align: center;
 .titlestyle {
   text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   text-decoration: underline;
-  font-size: 5rem;
+  font-size: 3.5rem;
 }
 
 .rates {
