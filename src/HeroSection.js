@@ -7,7 +7,7 @@ import image4 from './photos/howitworks.png'
 import photo from './photos/letter.png'
 import image5 from './photos/qna.png'
 import mainhouse from './photos/1.png'
-import { Card } from 'react-bootstrap'
+import { Card, Col, Row } from 'react-bootstrap'
 
 const HeroSection = () => {
   return (
@@ -75,7 +75,7 @@ const HeroSection = () => {
       <h2 class='why-invest'>How You Get Paid</h2>
       </div>
       <div className='card-container'>
-
+<Row xs={1} className='g4 justify-content-center align-items-center'>
       <Card className='me-2' style={{ width: '13rem',height: '15rem' }}>
       <Card.Body>
         <Card.Title>1.</Card.Title>
@@ -86,7 +86,6 @@ const HeroSection = () => {
       </Card.Body>
     </Card>
 
-
       <Card className='me-2' style={{ width: '13rem', height: '15rem' }}>
       <Card.Body>
         <Card.Title>2.</Card.Title>
@@ -96,6 +95,8 @@ const HeroSection = () => {
         </Card.Text>
       </Card.Body>
     </Card>
+
+
       <Card className='me-2' style={{ width: '13rem', height: '15rem' }}>
       <Card.Body>
         <Card.Title>3.</Card.Title>
@@ -105,7 +106,7 @@ const HeroSection = () => {
         </Card.Text>
       </Card.Body>
     </Card>
-
+</Row>
 </div>
       </div>
       </div>
