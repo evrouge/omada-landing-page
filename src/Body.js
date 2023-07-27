@@ -11,7 +11,7 @@ import mainhouse from './photos/1.png'
 import CardComponent from './CardComponent';
 // ==================================================
 
-const HeroSection = () => {
+const Body = () => {
 
   return (
     <>
@@ -90,4 +90,4 @@ const HeroSection = () => {
   );
 };
 
-export default HeroSection;
+export default Body;
