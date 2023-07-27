@@ -14,9 +14,10 @@ function App() {
     <div className="App">
       <Header />
       <HeroSection />
+
       <PropertyListing />
       <Footer />
-      <CardComponent />
+
     </div>
   );
 }
