@@ -204,3 +204,7 @@ div {
   /* content: '-'; */
   margin-right: 10px;
 }
+
+.card-content {
+  margin: 2rem;
+}
