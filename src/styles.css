@@ -1,6 +1,7 @@
 body {
     background-color: #eceadc !important;
     text-align: center !important;
+    /* overflow: hidden; */
 }
 
 /* styles for the header */
