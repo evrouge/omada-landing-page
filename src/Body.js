@@ -20,7 +20,7 @@ const Body = () => {
         <h1 class="text" id='omadatitle'>Omada Capital Management</h1>
         <img src={mainhouse} class="mainhouse"></img>
       </div><br/>
-      <img src={photo} class='helloletter'></img><br/>
+      <img src={photo} class='helloletter'></img><br/><br/>
       <h1 id="opportunity" class="titlestyle">The Opportunity</h1><br/>
       <div className='split-container1'>
         <div className='text'>
@@ -57,7 +57,7 @@ const Body = () => {
         <br/><br/><hr/><br/>
         <img src={image3} class="qanda"></img><br/><br/>
     {/* Section for TEAM */}
-    <div class='teamcolor'>
+    <div class='teamcolor'><br/>
       <h1 id="team" class="titlestyle">The Team</h1>
       <h2 class='makeitbold'>Experience Makes A Difference</h2>
       <h3>Founded by the leading real estate team in Utah for the last 20 years.</h3>
@@ -73,7 +73,7 @@ const Body = () => {
     </div>
       <br/><img src={image4} class="qanda"></img><br/><br/>
       {/* Section for PROFIT */}
-      <div class="rates">
+      <div class="rates"><br/>
         <h1 id="profit" class='titlestyle'>The Profit</h1>
         <p class='text'>OMADA invests in real estate for regular people to get a good return on their investment. You invest (buy shares) in OMADA, and they pay you quarterly dividends based on the percentage of the investment that is yours.</p>
         <div>

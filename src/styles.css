@@ -62,7 +62,7 @@ body {
 
 .titlestyle {
   text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
-  text-decoration: underline;
+  text-decoration: overline;
   font-size: 3rem;
 }
 
