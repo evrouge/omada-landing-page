@@ -103,10 +103,7 @@ body {
 .card-container {
   display: flex;
   justify-content: space-between;
-}
-
-div {
-  overflow: hidden;
+  overflow-x: visible;
 }
 
 .card:hover {
@@ -212,4 +209,15 @@ input[type="submit"] {
   .card-container {
     justify-content: center;
   }
+}
+
+.card {
+  box-sizing: border-box;
+  border: 1px solid black !important;
+  margin-left: 1em !important;
+  margin-right: 2em !important;
+}
+
+div {
+  overflow-x: hidden;
 }

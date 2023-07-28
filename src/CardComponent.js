@@ -31,7 +31,7 @@ const CardComponent = () => {
                     <Card.Title>1.</Card.Title>
                     <Card.Subtitle className="mb-2 text-muted"></Card.Subtitle>
                     <Card.Text>
-                    Rents collected are paid out on a quarterly basis after expenses.* Projected Return: 4 - 6% annually
+                    Rents collected are paid out on a quarterly basis after expenses.* Projected Return: 4-6% annually
                     </Card.Text>
                 </Card.Body>
                 </Card>
