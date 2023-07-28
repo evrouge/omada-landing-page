@@ -30,22 +30,26 @@ const Body = () => {
           <p>Sellers won't lower prices of gives up low rates</p>
           <p>Homes for sale inventory drops</p>
           <p>More people remain renters for longer</p>
-          <p>This means more income for investment groups who own single-fampy homes</p>
+          <p>This means more income for investment groups who own single-family homes</p>
           <p>This situation is especially potent in Utah with rapid growth</p>
       </div>
         <img src={image} alt="utah"></img><br/><br/>
       </div>
         <div class="rates"><br/>
-          <h3>Rates will increase or stablize, and prices will continue to stay steady (protecting the equity position). Quality rental applications will increase. Buying during the dip now provides the best of both worlds. </h3>
+          {/* <h3>Rates will increase or stablize, and prices will continue to stay steady (protecting the equity position). Quality rental applications will increase. Buying during the dip now provides the best of both worlds. </h3> */}
+          <h3>Utah is consistently rated as one of the top States to live in. We have operated exclusively in this amazing State, operating Utah's top Real Estate Team. </h3>
+          <a href='https://www.usnews.com/news/best-states/utah'>US News Best States List</a><br/><br/>
+          <h3>For the housing market, the strength of the economy predicts ongoing success for real estate investors.</h3><br/>
           <h2>14%</h2>
           <h3>Rent Increase*</h3>
           <p>Rent spikes during the recession and during the boom.</p>
           <h2>10%</h2>
           <h3>Property Appreciation*</h3>
           <p>Bounce back from this dip is likely to increase property values.</p>
-          <h2>COST</h2>
+          <h2>Cost</h2>
           <h3>As a Hedge vs Taxes*</h3>
-          <p>Dividents show loss now, but income when property values return.</p><br/>
+          <p>Dividents show loss now, but income when property values return.</p>
+          <p>* Projections are based off of a 3% annual increase. Please consult your tax adviser.</p><br/>
         </div>
         <br/>
         <h1>The Omada Difference</h1><br/>

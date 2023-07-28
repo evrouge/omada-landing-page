@@ -1,11 +1,11 @@
 import './styles.css';
-import logos from './photos/logo.png'
+
 
 const Footer = () => {
 
   return (
     <>
-    <footer><br/><br/><br/>
+    {/* <footer><br/><br/><br/>
       <form class="form-container">
         <h1>Contact Us!</h1><br/>
         Name: <input placeholder='First and Last Name'></input><br/><br/>
@@ -13,11 +13,12 @@ const Footer = () => {
         Message: <textarea placeholder='Message Here'></textarea><br/><br/>
         <input type="submit" value="Send Message"></input>
       </form><br/><br/>
-    </footer>
+    </footer> */}
     {/* <div class="image-container">
     <img src={logos} class="bottom-logo"></img>
-    </div> */}<br/>
-    <p>Omada Capital Management | 2023</p>
+    </div> */}<br/><br/>
+    <p>Omada Capital Management | 801.555.1234 | omadateam@omada.capital |</p>
+    <a href='https://omada.capital'>www.omada.capital</a><br/><br/>
     </>
   );
 };
