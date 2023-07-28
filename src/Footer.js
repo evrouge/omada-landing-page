@@ -5,7 +5,7 @@ const Footer = () => {
 
   return (
     <>
-    <footer><br/><hr/><br/>
+    <footer><br/><br/>
 
       <form class="form-container">
         <h1>Contact Us!</h1><br/>
@@ -13,7 +13,7 @@ const Footer = () => {
         Email: <input placeholder='Email'></input><br/><br/>
         Message: <textarea placeholder='Message Here'></textarea><br/><br/>
         <input type="submit" value="Send Message"></input>
-      </form><br/><hr/>
+      </form><br/>
 <br/>
     </footer>
     <div class="image-container">
