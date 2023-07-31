@@ -221,3 +221,7 @@ input[type="submit"] {
 div {
   overflow-x: hidden;
 }
+
+.titlestyle {
+  font-family: 'Lumanosimo', sans-serif !important;
+}

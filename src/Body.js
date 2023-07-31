@@ -36,7 +36,6 @@ const Body = () => {
         <img src={image} alt="utah"></img><br/><br/>
       </div>
         <div class="rates"><br/>
-          {/* <h3>Rates will increase or stablize, and prices will continue to stay steady (protecting the equity position). Quality rental applications will increase. Buying during the dip now provides the best of both worlds. </h3> */}
           <h3>Utah is consistently rated as one of the top States to live in. We have operated exclusively in this amazing State, operating Utah's top Real Estate Team. </h3>
           <a href='https://www.usnews.com/news/best-states/utah'>US News Best States List</a><br/><br/>
           <h3>For the housing market, the strength of the economy predicts ongoing success for real estate investors.</h3><br/>
@@ -61,10 +60,8 @@ const Body = () => {
       <h1 id="team" class="titlestyle">The Team</h1>
       <h2 class='makeitbold'>Experience Makes A Difference</h2>
       <h3>Founded by the leading real estate team in Utah for the last 20 years.</h3>
-      <ul>
-        <li>Over 10,000 property transactions</li>
-        <li>Best-equipped to indentify income-generating properties at the right price.</li>
-      </ul>
+        <h4 class='makeitbold'>Over 10,000 property transactions</h4>
+        <h4 class='makeitbold'>Best-equipped to indentify income-generating properties at the right price.</h4>
       <h2 class='different'>- More Convenient -</h2>
       <h2 class='different'>- More Profitable -</h2>
       <p>Investing with OMADA is simpler, more convenient, and potentially more profitable compared to buying investment property directly. It’s a great option for those who want to invest in real estate but don't have the time, money, or expertise to manage properties on their own.</p>
