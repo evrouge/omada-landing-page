@@ -59,9 +59,9 @@ const Body = () => {
     <div class='teamcolor'><br/>
       <h1 id="team" class="titlestyle">The Team</h1>
       <h2 class='makeitbold'>Experience Makes A Difference</h2>
-      <h3>Founded by the leading real estate team in Utah for the last 20 years.</h3>
-        <h4 class='makeitbold'>Over 10,000 property transactions</h4>
-        <h4 class='makeitbold'>Best-equipped to indentify income-generating properties at the right price.</h4>
+      <h3>Founded by the leading real estate team in Utah for the last 20 years.</h3><br/>
+        <h4 class='makeitbold'>Over 10,000 property transactions</h4><br/>
+        <h4 class='makeitbold'>Best-equipped to indentify income-generating properties at the right price.</h4><br/>
       <h2 class='different'>- More Convenient -</h2>
       <h2 class='different'>- More Profitable -</h2>
       <p>Investing with OMADA is simpler, more convenient, and potentially more profitable compared to buying investment property directly. It’s a great option for those who want to invest in real estate but don't have the time, money, or expertise to manage properties on their own.</p>
@@ -72,7 +72,7 @@ const Body = () => {
       {/* Section for PROFIT */}
       <div class="rates"><br/>
         <h1 id="profit" class='titlestyle'>The Profit</h1>
-        <p class='text'>OMADA invests in real estate for regular people to get a good return on their investment. You invest (buy shares) in OMADA, and they pay you quarterly dividends based on the percentage of the investment that is yours.</p>
+        <p class='text'>OMADA invests in real estate for regular people to get a good return on their investment. You invest (buy shares) in OMADA, and they pay you quarterly dividends based on the percentage of the investment that is yours.</p><br/>
         <div>
           <div class='split-container1'>
             <div class="text">
